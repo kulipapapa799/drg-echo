@@ -1,0 +1,42 @@
+{
+    "Name": "Melee Dwarf",
+    "Text": "Power attack cooldown is 0. Remove all weapons except the pickaxe and support weapons. MeleeDamage is melee damage. PST_PowerAttackCooldownRate is the cooldown rate.",
+    "Stats": {
+        "Scout": {
+            "PST_PowerAttackCooldownRate": 999,
+            "PST_MeleeDamage": 20,
+            "PST_MovementSpeed": 1.2,
+            "WeaponsNTools": {
+                "ADD": ["ID_PickAxe_Scout", "ID_FlareGun", "ID_GrapplingGun"],
+                "DEL": ["ALL"]
+            }
+        },
+        "Gunner": {
+            "PST_PowerAttackCooldownRate": 999,
+            "PST_MeleeDamage": 20,
+            "PST_MovementSpeed": 1.2,
+            "WeaponsNTools": {
+                "ADD": ["ID_PickAxe_Gunner", "ID_ZiplineGun", "ID_ShieldGenerator"],
+                "DEL": ["ALL"]
+            }
+        },
+        "Engineer": {
+            "PST_PowerAttackCooldownRate": 999,
+            "PST_MeleeDamage": 20,
+            "PST_MovementSpeed": 1.2,
+            "WeaponsNTools": {
+                "ADD": ["ID_PickAxe_Engineer", "ID_PlatformGun"],
+                "DEL": ["ALL"]
+            }
+        },
+        "Driller": {
+            "PST_PowerAttackCooldownRate": 999,
+            "PST_MeleeDamage": 20,
+            "PST_MovementSpeed": 1.2,
+            "WeaponsNTools": {
+                "ADD": ["ID_PickAxe_Driller", "ID_DoubleDrills"],
+                "DEL": ["ALL"]
+            }
+        }
+    }
+}
