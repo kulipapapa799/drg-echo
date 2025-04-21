@@ -1,0 +1,17 @@
+{
+	"Name": "Power Attack Cooldown Time is 0",
+	"Stats": {
+		"Scout": {
+			"PST_PowerAttackCooldownRate": 999
+		},
+		"Gunner": {
+			"PST_PowerAttackCooldownRate": 999
+		},
+		"Engineer": {
+			"PST_PowerAttackCooldownRate": 999
+		},
+		"Driller": {
+			"PST_PowerAttackCooldownRate": 999
+		}
+	}
+}
