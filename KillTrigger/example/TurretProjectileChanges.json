@@ -1,0 +1,46 @@
+{
+    "Name": "Turret Projectile Changes",
+    "Text": "This is an example. Added (ADD) a turret (ID_SentryGun) for each class. The turret projectile (PROJECTILE) has been modified to PRJ_StaticBomber.",
+    "Stats": {
+        "Scout": {
+            "WeaponsNTools": {
+                "ADD": [
+                    "ID_SentryGun"
+                ],
+                "ID_SentryGun": {
+                    "PROJECTILE": "PRJ_StaticBomber"
+                }
+            }
+        },
+        "Gunner": {
+            "WeaponsNTools": {
+                "ADD": [
+                    "ID_SentryGun"
+                ],
+                "ID_SentryGun": {
+                    "PROJECTILE": "PRJ_StaticBomber"
+                }
+            }
+        },
+        "Engineer": {
+            "WeaponsNTools": {
+                "ADD": [
+                    "ID_SentryGun"
+                ],
+                "ID_SentryGun": {
+                    "PROJECTILE": "PRJ_StaticBomber"
+                }
+            }
+        },
+        "Driller": {
+            "WeaponsNTools": {
+                "ADD": [
+                    "ID_SentryGun"
+                ],
+                "ID_SentryGun": {
+                    "PROJECTILE": "PRJ_StaticBomber"
+                }
+            }
+        }
+    }
+}
